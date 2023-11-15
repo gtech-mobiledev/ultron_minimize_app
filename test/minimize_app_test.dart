@@ -19,10 +19,9 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    MinimizeApp minimizeAppPlugin = MinimizeApp();
     MockMinimizeAppPlatform fakePlatform = MockMinimizeAppPlatform();
     MinimizeAppPlatform.instance = fakePlatform;
 
-    expect(minimizeAppPlugin.minimizeApp(), isA<Future<void>>());
+    expect(MinimizeApp.minimize(), isA<Future<void>>());
   });
 }

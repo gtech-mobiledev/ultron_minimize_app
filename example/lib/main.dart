@@ -14,8 +14,6 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  final _minimizeAppPlugin = MinimizeApp();
-
   @override
   void initState() {
     super.initState();
@@ -31,7 +29,7 @@ class _MyAppState extends State<MyApp> {
         body: Center(
           child: ElevatedButton(
               onPressed: () {
-                _minimizeAppPlugin.minimizeApp();
+                MinimizeApp.minimize();
               },
               child: const Text('Minimize')),
         ),

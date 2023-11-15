@@ -1,18 +1,11 @@
-# minimize_app
+# Minimize App Plugin
 
-A new Flutter plugin project.
+A flutter plugin to minimize the current Flutter App
 
-## Getting Started
+## Usage
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+`MinimizeApp.minimize();`
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This will call moveTaskToBack() in Android and suspend the iOS app via URLSessionTask.suspend which means that the app will be moved to the background but not killed.
 
-The plugin project was generated without specifying the `--platforms` flag, no platforms are currently supported.
-To add platforms, run `flutter create -t plugin --platforms <platforms> .` in this directory.
-You can also find a detailed instruction on how to add platforms in the `pubspec.yaml` at https://flutter.dev/docs/development/packages-and-plugins/developing-packages#plugin-platforms.
+This is useful if your app is opened by another app or browser and after some some time you want the user to return to the previous app without calling an intent to open it.

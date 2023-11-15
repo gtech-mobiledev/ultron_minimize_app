@@ -8,7 +8,7 @@
 import 'minimize_app_platform_interface.dart';
 
 class MinimizeApp {
-  Future<void> minimizeApp() {
+  static Future<void> minimize() {
     return MinimizeAppPlatform.instance.minimizeApp();
   }
 }

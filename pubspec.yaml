@@ -1,7 +1,7 @@
 name: minimize_app
 description: A new Flutter plugin project.
-version: 0.0.1
-homepage:
+version: 0.0.2
+homepage: https://git.blubox.id/bluebox/mapemall-2.0/ultron/minimize-app-plugin
 
 environment:
   sdk: '>=3.1.5 <4.0.0'
