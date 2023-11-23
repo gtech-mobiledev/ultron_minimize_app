@@ -5,8 +5,8 @@ import 'package:minimize_app/minimize_app_method_channel.dart';
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
-  MethodChannelMinimizeApp platform = MethodChannelMinimizeApp();
-  const MethodChannel channel = MethodChannel('minimize_app');
+  final platform = MethodChannelMinimizeApp();
+  const channel = MethodChannel('minimize_app');
 
   setUp(() {
     TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
@@ -25,7 +25,7 @@ void main() {
 
   test('minimizeApp', () async {
     expect(
-      () async => await platform.minimizeApp(),
+      () async => platform.minimizeApp(),
       isA<void>(),
     );
   });

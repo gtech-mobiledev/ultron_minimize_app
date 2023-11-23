@@ -1,3 +1,7 @@
+## 0.0.3
+
+* Use very_good_analysis as linter rules
+
 ## 0.0.2
 
 * Rename `minimizeApp()` to `minimize()`

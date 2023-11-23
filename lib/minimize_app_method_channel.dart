@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
-import 'minimize_app_platform_interface.dart';
+import 'package:minimize_app/minimize_app_platform_interface.dart';
 
 /// An implementation of [MinimizeAppPlatform] that uses method channels.
 class MethodChannelMinimizeApp extends MinimizeAppPlatform {
