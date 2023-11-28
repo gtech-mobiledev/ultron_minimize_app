@@ -1,3 +1,6 @@
+[![Latest Release](https://git.blubox.id/gtech-id/ultron/flutter/ultron-minimize-app/-/badges/release.svg)](https://git.blubox.id/gtech-id/ultron/flutter/ultron-minimize-app/-/releases)
+
+
 # Minimize App Plugin
 
 A flutter plugin to minimize the current Flutter App
