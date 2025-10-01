@@ -4,18 +4,17 @@ version: 0.0.3
 homepage: https://git.blubox.id/bluebox/mapemall-2.0/ultron/minimize-app-plugin
 
 environment:
-  sdk: '>=3.1.5 <4.0.0'
-  flutter: '>=3.3.0'
+  sdk: ^3.8.0
 
 dependencies:
   flutter:
     sdk: flutter
-  plugin_platform_interface: ^2.0.2
+  plugin_platform_interface: ^2.1.8
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  very_good_analysis: ^5.1.0
+  very_good_analysis: ^10.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
