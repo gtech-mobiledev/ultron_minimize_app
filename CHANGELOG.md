@@ -1,3 +1,6 @@
+## 1.0.0
+* Change Android compile SDK, update Android build config
+
 ## 0.0.3
 
 * Use very_good_analysis as linter rules
