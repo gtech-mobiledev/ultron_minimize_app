@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - ultron_minimize_app (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - ultron_minimize_app (from `.symlinks/plugins/ultron_minimize_app/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  ultron_minimize_app:
+    :path: ".symlinks/plugins/ultron_minimize_app/ios"
+
+SPEC CHECKSUMS:
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  ultron_minimize_app: 2d70a386f711b5978f1ace8b46888ecd6bfc043e
+
+PODFILE CHECKSUM: 3c63482e143d1b91d2d2560aee9fb04ecc74ac7e
+
+COCOAPODS: 1.16.2

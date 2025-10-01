@@ -3,7 +3,7 @@
 # Run `pod lib lint minimize_app.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'minimize_app'
+  s.name             = 'ultron_minimize_app'
   s.version          = '0.0.1'
   s.summary          = 'A Flutter plugin for minimize apps.'
   s.description      = <<-DESC
