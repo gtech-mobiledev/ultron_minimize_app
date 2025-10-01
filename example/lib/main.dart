@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'package:minimize_app/minimize_app.dart';
+import 'package:ultron_minimize_app/ultron_minimize_app.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,15 +22,14 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Plugin Minimize App'),
-        ),
+        appBar: AppBar(title: const Text('Plugin Minimize App')),
         body: Center(
           child: ElevatedButton(
-              onPressed: () {
-                MinimizeApp.minimize();
-              },
-              child: const Text('Minimize')),
+            onPressed: () {
+              MinimizeApp.minimize();
+            },
+            child: const Text('Minimize'),
+          ),
         ),
       ),
     );

@@ -31,7 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  minimize_app:
+  ultron_minimize_app:
     # When depending on this package from a real application you should use:
     #   minimize_app: ^x.y.z
     # See https://dart.dev/tools/pub/dependencies#version-constraints

@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:minimize_app/minimize_app.dart';
-import 'package:minimize_app/minimize_app_method_channel.dart';
-import 'package:minimize_app/minimize_app_platform_interface.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
+import 'package:ultron_minimize_app/minimize_app_method_channel.dart';
+import 'package:ultron_minimize_app/minimize_app_platform_interface.dart';
+import 'package:ultron_minimize_app/ultron_minimize_app.dart';
 
 class MockMinimizeAppPlatform
     with MockPlatformInterfaceMixin

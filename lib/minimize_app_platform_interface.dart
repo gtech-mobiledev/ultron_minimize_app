@@ -1,5 +1,5 @@
-import 'package:minimize_app/minimize_app_method_channel.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
+import 'package:ultron_minimize_app/minimize_app_method_channel.dart';
 
 abstract class MinimizeAppPlatform extends PlatformInterface {
   /// Constructs a MinimizeAppPlatform.
