@@ -1,4 +1,3 @@
-
 import 'package:ultron_minimize_app/minimize_app_platform_interface.dart';
 
 class MinimizeApp {
