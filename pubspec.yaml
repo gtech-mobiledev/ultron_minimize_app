@@ -5,6 +5,7 @@ repository: https://github.com/gtech-mobiledev/ultron_minimize_app
 
 environment:
   sdk: ^3.8.0
+  flutter: '>=3.22.0'
 
 dependencies:
   flutter:
