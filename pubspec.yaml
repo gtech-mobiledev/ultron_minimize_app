@@ -1,7 +1,7 @@
 name: ultron_minimize_app
 description: A flutter plugin to minimize the current Flutter App
 version: 1.0.0
-homepage: https://git.blubox.id/bluebox/mapemall-2.0/ultron/minimize-app-plugin
+repository: https://github.com/gtech-mobiledev/ultron_minimize_app
 
 environment:
   sdk: ^3.8.0
