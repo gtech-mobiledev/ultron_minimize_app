@@ -1,4 +1,6 @@
-[![Latest Release](https://git.blubox.id/gtech-id/ultron/flutter/ultron-minimize-app/-/badges/release.svg)](https://git.blubox.id/gtech-id/ultron/flutter/ultron-minimize-app/-/releases)
+[![pub package](https://img.shields.io/pub/v/ultron_minimize_app.svg)](https://pub.dev/packages/ultron_minimize_app)
+<a href="https://opensource.org/licenses/MIT" rel="noopener" target="_blank"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="MIT License Badge"></a>
+<a href="https://github.c/om/gtech-mobiledev/ultron_minimize_app" rel="noopener" target="_blank"><img src="https://img.shields.io/badge/platform-flutter-ff69b4.svg" alt="Flutter Platform Badge"></a>
 
 
 # Minimize App Plugin
